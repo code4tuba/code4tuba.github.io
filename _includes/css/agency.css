@@ -647,6 +647,15 @@ section h3.section-subheading {
     }
 }
 
+.team-box {
+    width: 40%;
+}
+@media screen and (min-width: 768px) {
+    .team-box {
+        width: 32%;
+    }
+} 
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -654,9 +663,15 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    /* border: 7px solid #fff; */
-    max-width: 240px;
-    max-height: 240px;
+    max-width: 120px;
+    max-height: 120px;
+}
+@media screen and (min-width: 768px) {
+    .team-member img {
+        /* border: 7px solid #fff; */
+        max-width: 240px;
+        max-height: 240px;
+    }
 }
 
 .team-member h4 {
