@@ -1,0 +1,14 @@
+---
+title: Code 4 Tuba - Meetup
+subtitle: Sábado, 15 de setembro de 2018
+layout: default
+modal-id: 1
+date: 2018-09-15
+img: codefortuba.png
+thumbnail: codefortuba.png
+alt: image-alt
+project-date: Sábado, 15 de setembro de 2018
+client: Coworking OSTEC, Tubarão, SC
+category: Detalhes
+description: Nesse meetup ocorreram diversas talks como VueJS, Google Cloud e Acessibilidade.
+---
