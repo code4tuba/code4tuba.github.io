@@ -648,7 +648,7 @@ section h3.section-subheading {
 }
 
 .team-box {
-    width: 40%;
+    width: 43%;
 }
 @media screen and (min-width: 768px) {
     .team-box {
@@ -663,8 +663,8 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 140px;
+    max-height: 140px;
 }
 @media screen and (min-width: 768px) {
     .team-member img {
