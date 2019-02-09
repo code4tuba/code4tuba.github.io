@@ -1,30 +1,25 @@
-Agency Jekyll theme
+Code for tuba
 ====================
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+# Como usar
 
-# How to use
+###Eventos 
 
-###Portfolio 
+Para adicionar novos eventos devem ser inseridos arquivos ```.MD``` dentro da pasta '/_posts'.
 
-Portfolio projects are in '/_posts'
+As imagens devem ser adicionadas em '/img/portfolio'
 
-Images are in '/img/portfolio'
+###Sobre
 
-###About
+As imagens estão em '/img/about/'
 
-Images are in '/img/about/'
+###Equipe
 
-###Team
+Informações sobre os membros estão no arquivo '_config.yml'
 
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+As Imagens estão em '/img/team/'
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
+
+Theme based on [here](https://y7kim.github.io/agency-jekyll-theme)
