@@ -1,0 +1,19 @@
+.service-img {
+  background-color: #{{ site.data.template.color.primary }};
+  border-radius: 100%;
+}
+
+.service-text {
+  min-height: 120px;
+}
+
+.service-text + a.btn-xl {
+  padding: 10px 20px;
+  margin: 12px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .service-text + a.btn-xl {
+    margin-bottom: 24px;
+  }
+}
