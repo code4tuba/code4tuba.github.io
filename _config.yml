@@ -4,92 +4,91 @@ url: https://code4tuba.com.br
 # Site settings
 title: Code 4 Tuba
 email: contato@code4tuba.com.br
-description: "O site da comunidade de desenvolvimento de Tubarão - SC, code 4 tuba."
-
+description: 'O site da comunidade de desenvolvimento de Tubarão - SC, code 4 tuba.'
 
 # Team names, titles and social links
 people:
-- name: Gefy Marcos
-  pic: gefy
-  position: Fundador
-  social:
-    - title: twitter
-      url: https://twitter.com/gefymarcos
-    - title: github
-      url: https://github.com/gefymarcos
-    - title: linkedin
-      url: https://www.linkedin.com/in/geffersonmarcos/
+  - name: Gefy Marcos
+    pic: gefy
+    position: Fundador
+    social:
+      - title: twitter
+        url: https://twitter.com/gefymarcos
+      - title: github
+        url: https://github.com/gefymarcos
+      - title: linkedin
+        url: https://www.linkedin.com/in/geffersonmarcos/
 
-- name: Allan L Barbosa
-  pic: allan
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Allan L Barbosa
+    pic: allan
+    position: Organizador
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
-- name: Lucas Nunes
-  pic: lucas
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Lucas Nunes
+    pic: lucas
+    position: Organizador
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
 
-- name: Willian Oliveira
-  pic: willian
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Willian Oliveira
+    pic: willian
+    position: Organizador
+    social:
+      - title: twitter
+        url: https://twitter.com/williangd
+      - title: github
+        url: https://github.com/williangd
+      - title: linkedin
+        url: https://www.linkedin.com/in/williangd/
 
-- name: Felipe Neves
-  pic: felipe
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: github
-      url: #
-    - title: linkedin
-      url: #
+  - name: Felipe Neves
+    pic: felipe
+    position: Organizador
+    social:
+      - title: twitter
+        url: #
+      - title: github
+        url: #
+      - title: linkedin
+        url: #
 
-- name: Leonardo Waterkemper
-  pic: leonardo
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  - name: Leonardo Waterkemper
+    pic: leonardo
+    position: Organizador
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
+        url: #
 
-- name: Evandro Cascaes
-  pic: evandro
-  position: Organizador
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  - name: Evandro Cascaes
+    pic: evandro
+    position: Organizador
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: google-plus
+        url: #
 
-- name: #
+  - name: #
 
-- name: #
-  
+  - name: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -98,7 +97,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
