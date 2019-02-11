@@ -35,11 +35,11 @@ people:
     position: Organizador
     social:
       - title: twitter
-        url: #
-      - title: facebook
-        url: #
+        url: https://twitter.com/lucasdnuness
+      - title: github
+        url: https://github.com/LucasDNunes
       - title: linkedin
-        url: #
+        url: https://www.linkedin.com/in/lucasdomingosnunes/
 
   - name: Willian Oliveira
     pic: willian
