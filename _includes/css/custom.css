@@ -3,13 +3,34 @@
   border-radius: 100%;
 }
 
+.contribuir-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .service-text {
   min-height: 120px;
 }
 
-.service-text + a.btn-xl {
+.btn-box {
+  width: 270px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
   padding: 10px 20px;
   margin: 12px 0;
+}
+
+.btn-icon {
+  width: 48px; 
+  margin-right: 10px;
+}
+
+.btn-label {
+  line-height: 1;
 }
 
 @media screen and (max-width: 991px) {
