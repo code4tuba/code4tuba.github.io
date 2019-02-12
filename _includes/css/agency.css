@@ -119,15 +119,17 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    height: 65px; 
+    width: 270px; 
+    border-radius: 50px;
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background: linear-gradient(#{{ site.data.template.color.primary }}, #{{ site.data.template.color.secondary }});
 }
 
 .btn-xl:hover,
@@ -137,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background: #{{ site.data.template.color.secondary }};
 }
 
 .btn-xl:active,
