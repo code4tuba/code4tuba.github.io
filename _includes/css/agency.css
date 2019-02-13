@@ -669,14 +669,13 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    max-width: 140px;
-    max-height: 140px;
+    width: 140px;
+    height: 140px;
 }
 @media screen and (min-width: 768px) {
     .team-member img {
-        /* border: 7px solid #fff; */
-        max-width: 240px;
-        max-height: 240px;
+        width: 240px;
+        height: 240px;
     }
 }
 

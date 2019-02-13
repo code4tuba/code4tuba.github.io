@@ -38,3 +38,12 @@
     margin-bottom: 24px;
   }
 }
+
+.team-members {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
+}

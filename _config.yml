@@ -24,11 +24,11 @@ people:
     position: Organizador
     social:
       - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: google-plus
-        url: #
+        url: https://twitter.com/allanluciano
+      - title: github
+        url: https://github.com/allanlb
+      - title: linkedin
+        url: https://www.linkedin.com/in/allan-l-barbosa-3b599550/
 
   - name: Lucas Nunes
     pic: lucas
@@ -68,26 +68,22 @@ people:
     position: Organizador
     social:
       - title: twitter
-        url: #
-      - title: facebook
-        url: #
+        url: https://twitter.com/leonardothizon
+      - title: github
+        url: https://github.com/leonardothizon
       - title: linkedin
-        url: #
+        url: https://www.linkedin.com/in/leonardo-thizon-waterkemper-4777a656/
 
   - name: Evandro Cascaes
     pic: evandro
     position: Organizador
     social:
       - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: google-plus
-        url: #
-
-  - name: #
-
-  - name: #
+        url: https://twitter.com/evandrocascaes
+      - title: github
+        url: https://github.com/evandroPulga
+      - title: linkedin
+        url: https://www.linkedin.com/in/evandrocascaes/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -100,7 +96,7 @@ social:
   - title: whatsapp
     url: https://chat.whatsapp.com/1iclmfdAmnt9IwA2ktIsRJ
 #  - title: slack
-#    url: 
+#    url:
 
 # Postal address (add as many lines as necessary)
 address:
