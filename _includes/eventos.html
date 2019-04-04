@@ -9,8 +9,9 @@
             </div>
             <div class="row">
             {% for post in site.posts %}
+            <h6>{{site.permalink}}</h6>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="{{ site.permalink }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>

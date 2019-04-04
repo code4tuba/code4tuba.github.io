@@ -2,7 +2,6 @@
 title: Code 4 Tuba - Meetup
 subtitle: Sábado, 17 de novembro de 2018
 layout: default
-modal-id: 1
 date: 2018-11-17
 img: codefortuba.png
 thumbnail: codefortuba.png

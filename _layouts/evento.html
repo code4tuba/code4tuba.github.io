@@ -1,0 +1,38 @@
+---
+layout: evento
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    
+    {{page.title}}
+    <br>
+    {{page.subtitle}}
+    <br>
+    <br>
+    {{page.description}}
+      <br>
+    {% for h in page.horas %}
+    {{h}}
+    <br>
+    {% endfor %}
+    
+    <h3>Programação / Palestras</h3>
+
+    
+
+
+
+
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 title: Code 4 Tuba - Meetup
 subtitle: Sábado, 16 de março de 2019
-layout: default
+layout: evento
 modal-id: 1
 date: 2019-03-16
 img: codefortuba.png
@@ -10,14 +10,11 @@ alt: image-alt
 project-date: Sábado, 16 de março de 2019
 client: Coworking OSTEC, Tubarão, SC
 category: Detalhes
-description: "Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
-<br><br>
-Confira a agenda do dia:<br>
-<br><br>
-14:30h - Credenciamento<br>
-<b>14:45h - Elasticsearch: Buscas inteligentes</b> - Matheus Warmeling Matias<br>
-<b>15:25h - Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos</b> - Leonardo Thizon<br>
-<b>16:15h - React-native + Firebase: Criando um app de chat realtime 100% hands-on</b> - José Roberto Emerich Junior<br>
-17:00h - Encerramento<br>
-"
+description: "Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!"
+horas: 14:30h - Credenciamento
+horas: "14:45h - Elasticsearch: Buscas inteligentes</b> - Matheus Warmeling Matias"
+# <b>15:25h - Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos</b> - Leonardo Thizon<br>
+# <b>16:15h - React-native + Firebase: Criando um app de chat realtime 100% hands-on</b> - José Roberto Emerich Junior<br>
+# 17:00h - Encerramento<br>
+# "
 ---
