@@ -4,35 +4,59 @@ layout: evento
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
+<body id="page-top" class="index">
 
-    <body id="page-top" class="index">
+  {% include header.html %}
 
-    {% include header.html %}
-    
+  <div class="container">
+
     {{page.title}}
     <br>
     {{page.subtitle}}
     <br>
-    <br>
     {{page.description}}
-      <br>
-    {% for h in page.horas %}
-    {{h}}
     <br>
-    {% endfor %}
-    
-    <h3>Programação / Palestras</h3>
+    <h3>
+      <span>Programação / Palestras</span>
+    </h3>
+    <a href="">Todos os Eventos</a>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">Horario</th>
+          <th scope="col">Conteúdo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>08:00 <br> às <br> 09:00</td>
+          <td>Credenciamento e recepção dos participantes</td>
+        </tr>
+        <tr>
+          <td>09:00 <br> às <br> 10:00</td>
+          <td>
+            <span>Criando testes com Java e Junit</span>
+            <a href="">Neves</a> / <a href="">Lucas</a>
+            <div>
+              <div>
+                <a href="">Slides</a>
+              </div>
+              <div>
+                <a href="">Download</a>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-    
+  {% include contact.html %}
+  {% include footer.html %}
+  {% include js.html %}
 
+</body>
 
-
-
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include js.html %}
-
-    </body>
 </html>

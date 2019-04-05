@@ -9,7 +9,7 @@ thumbnail: codefortuba.png
 alt: image-alt
 project-date: Sábado, 16 de março de 2019
 client: Coworking OSTEC, Tubarão, SC
-category: Detalhes
+category: evento
 description: "Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!"
 horas: 14:30h - Credenciamento
 horas: "14:45h - Elasticsearch: Buscas inteligentes</b> - Matheus Warmeling Matias"
