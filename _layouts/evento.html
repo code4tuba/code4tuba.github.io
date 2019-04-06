@@ -9,49 +9,82 @@ layout: evento
 <body id="page-top" class="index">
 
   {% include header.html %}
+  <section>
+    <div id="evento" class="container">
 
-  <div class="container">
-
-    {{page.title}}
-    <br>
-    {{page.subtitle}}
-    <br>
-    {{page.description}}
-    <br>
-    <h3>
-      <span>Programação / Palestras</span>
-    </h3>
-    <a href="">Todos os Eventos</a>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th scope="col">Horario</th>
-          <th scope="col">Conteúdo</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>08:00 <br> às <br> 09:00</td>
-          <td>Credenciamento e recepção dos participantes</td>
-        </tr>
-        <tr>
-          <td>09:00 <br> às <br> 10:00</td>
-          <td>
-            <span>Criando testes com Java e Junit</span>
-            <a href="">Neves</a> / <a href="">Lucas</a>
-            <div>
-              <div>
-                <a href="">Slides</a>
-              </div>
-              <div>
-                <a href="">Download</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+      {{page.title}}
+      <br>
+      {{page.subtitle}}
+      <br>
+      {{page.description}}
+      <br>
+      <div class="conteudo">
+        <div>
+          <h3>
+            <span>Programação / Palestras</span>
+          </h3>
+          <a href="/">Todos os Eventos</a>
+          <div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Horario</th>
+                  <th>Conteúdo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>08:00 <br> às <br> 09:00</td>
+                  <td>Credenciamento e recepção dos participantes</td>
+                </tr>
+                <tr>
+                  <td>09:00 <br> às <br> 10:00</td>
+                  <td>
+                    <span>Criando testes com Java e Junit</span>
+                    <a href="">Neves</a> / <a href="">Lucas</a>
+                    <div>
+                      <div>
+                        <a href="">Slides</a>
+                      </div>
+                      <div>
+                        <a href="">Download</a>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <div class="data-local">
+            <h2>Data e Local</h2>
+            <br>
+            <p>Sexta-feira, 20 de Abril de 2018</p>
+            <p>8:30 às 19:00 h</p>
+            <p>CentroSul</p>
+            <p>Av. Governador Gustavo Richard, 850 
+                Centro | Florianópolis - SC</p>
+            <p><a href="">mais informações sobre data e local</a></p>
+          </div>
+          <div>
+            <h2>Públibo Alvo</h2>
+            <p>Qualquer pessoa ligada ao desenvolvimento de software</p>
+          </div>
+          <div>
+            <h2>Investimento</h2>
+            <p> <strong>presencial:</strong> R$ 265,00</p>
+            <p>Fazendo sua inscrição presencial, você terá acesso a esta trilha e no mesmo dia também: 
+              TDC Expo: Venha conversar com pessoas e conhecer empresas incríveis. 
+              Trilha Stadium: Você poderá assistir às palestras da trilha Stadium do mesmo dia.</p>
+          </div>
+          <div>
+            <h2>Participe</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   {% include contact.html %}
   {% include footer.html %}
