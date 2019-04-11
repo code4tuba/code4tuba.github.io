@@ -53,7 +53,18 @@
 }
 
 #evento .conteudo{
+  display: flex;
+  flex-direction: row;
 }
 
-#evento .data-local{
+#evento .palestras{
+  display: flex;
+  flex-direction: column;
+  flex: .7;
+}
+
+#evento .informacoes{
+  display: flex;
+  flex-direction: column;
+  flex: .3;
 }
