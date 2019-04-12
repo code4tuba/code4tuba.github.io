@@ -34,25 +34,36 @@ layout: evento
                 </tr>
               </thead>
               <tbody>
+                {% for talk in page.talks %}
                 <tr>
-                  <td>08:00 <br> às <br> 09:00</td>
-                  <td>Credenciamento e recepção dos participantes</td>
-                </tr>
-                <tr>
-                  <td>09:00 <br> às <br> 10:00</td>
+                  <td style="padding-left: 1%;">
+                    <p>{{talk.hora_inicio}}</p>
+                    <p>às</p>
+                    <p>{{talk.hora_fim}}</p>
+                  </td>
                   <td>
-                    <span>Criando testes com Java e Junit</span>
-                    <a href="">Neves</a> / <a href="">Lucas</a>
-                    <div>
+                    <span>{{talk.nome}}</span>
+                    <br>
+                    {% if talk.istalk %}
+                    
+                    {% for p in talk.palestrantes %}
+                    <a href="">{{p.nome}}</a> / <a href="">Lucas</a>
+                    {% endfor %}
+
+                    {% for link in talk.links %}
+                    {% if link.icone %}
+                    <div style="display: flex; flex-direction: row;">
                       <div>
-                        <a href="">Slides</a>
-                      </div>
-                      <div>
-                        <a href="">Download</a>
+                        <a href="{{link.link}}">{{link.nome}} </a> -
                       </div>
                     </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+
                   </td>
                 </tr>
+                {% endfor %}
               </tbody>
             </table>
           </div>

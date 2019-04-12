@@ -13,32 +13,51 @@ description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão
 
 talks:
   - nome: "Credenciamento"
-    palestrante:
+    palestrantes:
     istalk: false
-    hora_inicio: 14:30
-    hora_fim: 15:00
+    hora_inicio: "14:30"
+    hora_fim: "15:00"
 
   - nome: "Elasticsearch Buscas inteligentes"
-    palestrante: Matheus Warmeling Matias
+    palestrantes: 
+      - nome: "Matheus Warmeling Matias"
     istalk: true
-    hora_inicio: 15:00
-    hora_fim: 15:40
+    hora_inicio: "15:00"
+    hora_fim: "15:40"
+    links:
+      - icone:
+        nome:
+        link:
    
   - nome: Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos
-    palestrante: Leonardo Thizon
+    palestrantes: 
+      - nome: "Leonardo Thizon"
     istalk: true
-    hora_inicio: 15:40
-    hora_fim: 16:20
+    hora_inicio: "15:40"
+    hora_fim: "16:20"
+    links:
+      - icone:
+        nome:
+        link:
   
   - nome: "React-native + Firebase: Criando um app de chat realtime 100% hands-on"
-    palestrante: José Roberto Emerich Junior
+    palestrantes: 
+      - nome: "José Roberto Emerich Junior"
     istalk: true
-    hora_inicio: 16:20
-    hora_fim: 17:00
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone:
+        nome:
+        link:
   
   - nome: Encerramento
     palestrante: 
     istalk: false
-    hora_inicio: 17:00
-    hora_fim: 17:00
+    hora_inicio: "17:00"
+    hora_fim: "17:00"
+    links:
+      - icone:
+        nome:
+        link:
 ---
