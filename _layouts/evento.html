@@ -45,9 +45,13 @@ layout: evento
                     <span>{{talk.nome}}</span>
                     <br>
                     {% if talk.istalk %}
-                    
+
                     {% for p in talk.palestrantes %}
-                    <a href="">{{p.nome}}</a> / <a href="">Lucas</a>
+                    {% if forloop.index < forloop.last %}
+                     / <a href="">{{p.nome}}</a>
+                    {% else %}
+                    <a href="">{{p.nome}}</a>
+                    {% endif %}
                     {% endfor %}
 
                     {% for link in talk.links %}
@@ -72,20 +76,19 @@ layout: evento
           <div class="data-local">
             <h2>Data e Local</h2>
             <br>
-            <p>Sexta-feira, 20 de Abril de 2018</p>
+            <p>{{page.project-date}}</p>
             <p>8:30 às 19:00 h</p>
-            <p>CentroSul</p>
-            <p>Av. Governador Gustavo Richard, 850
-              Centro | Florianópolis - SC</p>
+            <p>{{page.client}}</p>
+            <p>{{page.endereco}}</p>
             <p><a href="">mais informações sobre data e local</a></p>
           </div>
           <div>
             <h2>Públibo Alvo</h2>
-            <p>Qualquer pessoa ligada ao desenvolvimento de software</p>
+            <p>{{page.publico_alvo}}</p>
           </div>
           <div>
             <h2>Investimento</h2>
-            <p> <strong>presencial:</strong> R$ 265,00</p>
+            <p> <strong>presencial:</strong> {{page.valor}}</p>
             <p>Fazendo sua inscrição presencial, você terá acesso a esta trilha e no mesmo dia também:
               TDC Expo: Venha conversar com pessoas e conhecer empresas incríveis.
               Trilha Stadium: Você poderá assistir às palestras da trilha Stadium do mesmo dia.</p>

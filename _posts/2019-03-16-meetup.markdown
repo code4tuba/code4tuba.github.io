@@ -7,9 +7,12 @@ img: codefortuba.png
 thumbnail: codefortuba.png
 alt: image-alt
 project-date: Sábado, 16 de março de 2019
-client: Coworking OSTEC, Tubarão, SC
+local: Coworking OSTEC, Tubarão, SC
+endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
 category: evento
 description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
 
 talks:
   - nome: "Credenciamento"
@@ -21,6 +24,7 @@ talks:
   - nome: "Elasticsearch Buscas inteligentes"
     palestrantes: 
       - nome: "Matheus Warmeling Matias"
+      - nome: "Lucas"
     istalk: true
     hora_inicio: "15:00"
     hora_fim: "15:40"
