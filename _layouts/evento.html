@@ -35,38 +35,36 @@ layout: evento
               </thead>
               <tbody>
                 {% for talk in page.talks %}
-                <tr>
-                  <td style="padding-left: 1%;">
-                    <p>{{talk.hora_inicio}}</p>
-                    <p>às</p>
-                    <p>{{talk.hora_fim}}</p>
-                  </td>
-                  <td>
-                    <span>{{talk.nome}}</span>
-                    <br>
-                    {% if talk.istalk %}
+                  <tr>
+                    <td style="padding-left: 1%;">
+                      <p>{{talk.hora_inicio}}</p>
+                      <p>às</p>
+                      <p>{{talk.hora_fim}}</p>
+                    </td>
+                    <td>
+                      <span>{{talk.nome}}</span>
+                      <br>
+                      {% if talk.istalk %}
+                        {% for p in talk.palestrantes %}
+                          {% if forloop.length  > 1 and forloop.index > 1 %}
+                              / <a href="{{p.linkedin}}">{{p.nome}}</a>
+                            {% else %}
+                              <a href="">{{p.nome}}</a>
+                            {% endif %}
+                            {% endfor %}
+                            {% for link in talk.links %}
+                            {% if link.icone %}
+                              <div style="display: flex; flex-direction: row;">
+                                <div>
+                                  <a href="{{link.link}}">{{link.nome}} </a> -
+                                </div>
+                              </div>
+                          {% endif %}
+                        {% endfor %}
+                      {% endif %}
 
-                    {% for p in talk.palestrantes %}
-                    {% if forloop.index < forloop.last %}
-                     / <a href="">{{p.nome}}</a>
-                    {% else %}
-                    <a href="">{{p.nome}}</a>
-                    {% endif %}
-                    {% endfor %}
-
-                    {% for link in talk.links %}
-                    {% if link.icone %}
-                    <div style="display: flex; flex-direction: row;">
-                      <div>
-                        <a href="{{link.link}}">{{link.nome}} </a> -
-                      </div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
-                    {% endif %}
-
-                  </td>
-                </tr>
+                    </td>
+                  </tr>
                 {% endfor %}
               </tbody>
             </table>

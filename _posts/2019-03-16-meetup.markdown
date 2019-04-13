@@ -24,7 +24,7 @@ talks:
   - nome: "Elasticsearch Buscas inteligentes"
     palestrantes: 
       - nome: "Matheus Warmeling Matias"
-      - nome: "Lucas"
+        linkedin:
     istalk: true
     hora_inicio: "15:00"
     hora_fim: "15:40"
@@ -36,6 +36,7 @@ talks:
   - nome: Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos
     palestrantes: 
       - nome: "Leonardo Thizon"
+        linkedin:
     istalk: true
     hora_inicio: "15:40"
     hora_fim: "16:20"
@@ -47,21 +48,19 @@ talks:
   - nome: "React-native + Firebase: Criando um app de chat realtime 100% hands-on"
     palestrantes: 
       - nome: "José Roberto Emerich Junior"
+        linkedin:
     istalk: true
     hora_inicio: "16:20"
     hora_fim: "17:00"
     links:
-      - icone:
-        nome:
+      - icone: 
+        nome: 
         link:
   
   - nome: Encerramento
     palestrante: 
     istalk: false
     hora_inicio: "17:00"
-    hora_fim: "17:00"
-    links:
-      - icone:
-        nome:
-        link:
+    hora_fim: "18:00"
+    
 ---
