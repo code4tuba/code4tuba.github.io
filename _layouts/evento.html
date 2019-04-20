@@ -8,13 +8,14 @@ layout: evento
 
 <body id="page-top" class="index">
 
-  {% include header.html %}
+  {% include header-secondary.html %}
   <section>
     <div id="evento" class="container">
 
-      {{page.title}}
+      <h1>{{page.title}}</h1>
       <br>
-      {{page.subtitle}}
+      <strong>{{page.subtitle}}</strong>
+      <br>
       <br>
       {{page.description}}
       <br>
@@ -24,32 +25,31 @@ layout: evento
           <h3>
             <span>Programação / Palestras</span>
           </h3>
-          <a href="/">Todos os Eventos</a>
           <div>
-            <table>
+            <table style="border-radius: 12px;">
               <thead>
-                <tr>
-                  <th>Horario</th>
+                <tr class="table-default">
+                  <th>Horário</th>
                   <th>Conteúdo</th>
                 </tr>
               </thead>
               <tbody>
                 {% for talk in page.talks %}
-                  <tr>
-                    <td style="padding-left: 1%;">
-                      <p>{{talk.hora_inicio}}</p>
-                      <p>às</p>
-                      <p>{{talk.hora_fim}}</p>
-                    </td>
+                <tr class="table-default">
                     <td>
-                      <span>{{talk.nome}}</span>
+                      <p class="data-hora-container">{{talk.hora_inicio}}
+                      às
+                      {{talk.hora_fim}}</p>
+                    </td>
+                    <td class="talk-container">
+                      <span><strong>{{talk.nome}}</strong></span>
                       <br>
                       {% if talk.istalk %}
                         {% for p in talk.palestrantes %}
                           {% if forloop.length  > 1 and forloop.index > 1 %}
-                              / <a href="{{p.linkedin}}">{{p.nome}}</a>
+                              / <a href="{{p.linkedin}}" target="_blank"><i>{{p.nome}}</i></a>
                             {% else %}
-                              <a href="">{{p.nome}}</a>
+                              <a href="{{p.linkedin}}" target="_blank" style="font-size: 12px;"><i>{{p.nome}}</i></a>
                             {% endif %}
                             {% endfor %}
                             {% for link in talk.links %}
@@ -72,27 +72,20 @@ layout: evento
         </div>
         <div class="informacoes">
           <div class="data-local">
-            <h2>Data e Local</h2>
+            <h4>Data e Local</h4>
             <br>
             <p>{{page.project-date}}</p>
-            <p>8:30 às 19:00 h</p>
+            <p>{{page.horario_inicio}} às {{page.horario_fim}}</p>
             <p>{{page.client}}</p>
-            <p>{{page.endereco}}</p>
-            <p><a href="">mais informações sobre data e local</a></p>
+            <p> <a href="{{page.endereco_url}}" target="_blank">{{page.endereco}}</a></p>
           </div>
           <div>
-            <h2>Públibo Alvo</h2>
+            <h4>Públibo Alvo</h4>
             <p>{{page.publico_alvo}}</p>
           </div>
           <div>
-            <h2>Investimento</h2>
-            <p> <strong>presencial:</strong> {{page.valor}}</p>
-            <p>Fazendo sua inscrição presencial, você terá acesso a esta trilha e no mesmo dia também:
-              TDC Expo: Venha conversar com pessoas e conhecer empresas incríveis.
-              Trilha Stadium: Você poderá assistir às palestras da trilha Stadium do mesmo dia.</p>
-          </div>
-          <div>
-            <h2>Participe</h2>
+            <h4>Quero Participar</h4>
+            <p><a href="{{page.link_inscricoes}}" target_="_blank" class="page-scroll btn btn-xl">Fazer inscrição</a></p>
           </div>
         </div>
       </div>

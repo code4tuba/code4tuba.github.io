@@ -9,10 +9,14 @@ alt: image-alt
 project-date: Sábado, 16 de março de 2019
 local: Coworking OSTEC, Tubarão, SC
 endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
+endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
 category: evento
 description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
 publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
 valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__472453"
 
 talks:
   - nome: "Credenciamento"
@@ -24,7 +28,7 @@ talks:
   - nome: "Elasticsearch Buscas inteligentes"
     palestrantes: 
       - nome: "Matheus Warmeling Matias"
-        linkedin:
+        linkedin: https://google.com.br
     istalk: true
     hora_inicio: "15:00"
     hora_fim: "15:40"
