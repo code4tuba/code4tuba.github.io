@@ -10,7 +10,7 @@ project-date: Sábado, 16 de março de 2019
 local: Coworking OSTEC, Tubarão, SC
 endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
 endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
-category: evento
+permalink: /evento-1
 description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
 publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
 valor: "Gratuito"

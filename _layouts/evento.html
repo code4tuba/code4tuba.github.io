@@ -50,17 +50,17 @@ layout: evento
                               / <a href="{{p.linkedin}}" target="_blank"><i>{{p.nome}}</i></a>
                             {% else %}
                               <a href="{{p.linkedin}}" target="_blank" style="font-size: 12px;"><i>{{p.nome}}</i></a>
-                            {% endif %}
-                            {% endfor %}
-                            {% for link in talk.links %}
+                          {% endif %}
+                        {% endfor %}
+                          {% for link in talk.links %}
                             {% if link.icone %}
                               <div style="display: flex; flex-direction: row;">
                                 <div>
                                   <a href="{{link.link}}">{{link.nome}} </a> -
                                 </div>
                               </div>
-                          {% endif %}
-                        {% endfor %}
+                            {% endif %}
+                          {% endfor %}
                       {% endif %}
 
                     </td>

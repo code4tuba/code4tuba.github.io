@@ -1,19 +1,67 @@
 ---
-title: Code 4 Tuba - Meetup
+title: Code 4 Tuba - Meetupp
 subtitle: Sábado, 17 de novembro de 2018
-layout: default
+layout: evento
 date: 2018-11-17
 img: codefortuba.png
 thumbnail: codefortuba.png
 alt: image-alt
 project-date: Sábado, 17 de novembro de 2018
 client: Coworking OSTEC, Tubarão, SC
-category: Detalhes
-description: "Nesse meetup tivemos a oportunidade de aprender sobre diversos temas como Micro serviços, PWA e React
-<br><br>
-Para esse meetup tivemos as seguintes talks:<br>
-<br><br>
-Micro serviços com Spring Cloud e Docker - Cristiano Dácio<br>
-Web to PWA! - Gefy Marcos<br>
-React - Construindo aplicações front-end - Allan L. Barbosa<br>"
+permalink: /evento-2
+description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__472453"
+
+talks:
+  - nome: "Credenciamento"
+    palestrantes:
+    istalk: false
+    hora_inicio: "14:30"
+    hora_fim: "15:00"
+
+  - nome: "Micro serviços com Spring Cloud e Docker"
+    palestrantes: 
+      - nome: "Cristiano Dácio"
+        linkedin: https://google.com.br
+    istalk: true
+    hora_inicio: "15:00"
+    hora_fim: "15:40"
+    links:
+      - icone:
+        nome:
+        link:
+   
+  - nome: Web to PWA!
+    palestrantes: 
+      - nome: "Leonardo Thizon"
+        linkedin:
+    istalk: true
+    hora_inicio: "15:40"
+    hora_fim: "16:20"
+    links:
+      - icone:
+        nome:
+        link:
+  
+  - nome: "React - Construindo aplicações front-end"
+    palestrantes: 
+      - nome: "Allan L. Barbosa"
+        linkedin:
+    istalk: true
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone: 
+        nome: 
+        link:
+  
+  - nome: Encerramento
+    palestrante: 
+    istalk: false
+    hora_inicio: "17:00"
+    hora_fim: "18:00"
 ---

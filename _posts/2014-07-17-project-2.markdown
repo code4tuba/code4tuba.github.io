@@ -1,7 +1,7 @@
 ---
 title: Code 4 Tuba - Meetup
 subtitle: Sábado, 20 de outubro de 2018
-layout: default
+layout: evento
 modal-id: 1
 date: 2018-10-20
 img: codefortuba.png
@@ -9,13 +9,62 @@ thumbnail: codefortuba.png
 alt: image-alt
 project-date: Sábado, 20 de outubro de 2018
 client: Coworking OSTEC, Tubarão, SC
-category: Detalhes
-description: "Nesse meetup tivemos a oportunidade de aprender sobre diversos temas, como Spring, Swagger, React-Native e Serverless.
-<br><br>
-Talks apresentadas
-<br><br>
-Começando com Spring Boot - Felipe Neves <br>
-Documentando APIs com Swagger - Fernando Fogliato <br>
-React-Native, do zero a produção - Guilherme Coelho <br>
-Serverless Framework, criando APIs de baixo custo - Ramon Nunes Teixeira"
+permalink: /evento-3
+description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__472453"
+
+talks:
+  - nome: "Credenciamento"
+    palestrantes:
+    istalk: false
+    hora_inicio: "14:30"
+    hora_fim: "15:00"
+
+  - nome: "Começando com Spring Boot"
+    palestrantes: 
+      - nome: "Felipe Neves"
+        linkedin: https://google.com.br
+    istalk: true
+    hora_inicio: "15:00"
+    hora_fim: "15:40"
+    links:
+      - icone:
+        nome:
+        link:
+   
+  - nome: "Documentando APIs com Swagger"
+    palestrantes: 
+      - nome: "Fernando Fogliato"
+        linkedin:
+    istalk: true
+    hora_inicio: "15:40"
+    hora_fim: "16:20"
+    links:
+      - icone:
+        nome:
+        link:
+  
+  - nome: "React-Native, do zero a produção"
+    palestrantes: 
+      - nome: "Guilherme Coelho"
+        linkedin:
+    istalk: true
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone: 
+        nome: 
+        link:
+  
+  - nome: "Encerramento"
+    palestrante: 
+    istalk: false
+    hora_inicio: "17:00"
+    hora_fim: "18:00"
+
+
 ---
