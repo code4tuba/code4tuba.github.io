@@ -26,10 +26,10 @@ layout: evento
             <span>Programação / Palestras</span>
           </h3>
           <div>
-            <table style="border-radius: 12px;">
+            <table class="table-eventos">
               <thead>
                 <tr class="table-default">
-                  <th>Horário</th>
+                  <th style="text-align: center; width: 150px;">Horário</th>
                   <th>Conteúdo</th>
                 </tr>
               </thead>
@@ -37,7 +37,7 @@ layout: evento
                 {% for talk in page.talks %}
                 <tr class="table-default">
                     <td>
-                      <p class="data-hora-container">{{talk.hora_inicio}}
+                      <p class="data-hora-container" style="width: 150px;">{{talk.hora_inicio}}
                       às
                       {{talk.hora_fim}}</p>
                     </td>

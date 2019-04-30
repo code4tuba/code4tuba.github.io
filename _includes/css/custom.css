@@ -53,8 +53,14 @@
 }
 
 #evento .conteudo{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
+}
+
+#evento .table-eventos {
+  border-radius: 12px;
+  width: 100%;
 }
 
 #evento .palestras{
