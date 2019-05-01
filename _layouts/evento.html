@@ -47,7 +47,7 @@ layout: evento
                       {% if talk.istalk %}
                         {% for p in talk.palestrantes %}
                           {% if forloop.length  > 1 and forloop.index > 1 %}
-                              / <a href="{{p.linkedin}}" target="_blank"><i>{{p.nome}}</i></a>
+                              / <a href="{{p.linkedin}}" target="_blank" style="font-size: 12px;"><i>{{p.nome}}</i></a>
                             {% else %}
                               <a href="{{p.linkedin}}" target="_blank" style="font-size: 12px;"><i>{{p.nome}}</i></a>
                           {% endif %}
@@ -85,7 +85,7 @@ layout: evento
           </div>
           <div>
             <h4>Quero Participar</h4>
-            <p><a href="{{page.link_inscricoes}}" target_="_blank" class="page-scroll btn btn-xl">Fazer inscrição</a></p>
+            <p><a href="{{page.link_inscricoes}}" target="_blank" class="page-scroll btn btn-xl">Fazer inscrição</a></p>
           </div>
         </div>
       </div>

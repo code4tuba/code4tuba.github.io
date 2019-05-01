@@ -1,0 +1,72 @@
+---
+title: Code 4 Tuba - Meetup
+subtitle: Sábado, 11 de maio de 2019
+layout: evento
+date: 2019-05-01
+img: code4tuba.jpg
+thumbnail: code4tuba.jpg
+alt: Imagem de divulgação code for tuba meetup
+project-date: Sábado, 11 de maio de 2019
+local: Coworking OSTEC, Tubarão, SC
+endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
+endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
+permalink: /evento-5
+description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__518751"
+
+talks:
+  - nome: "Credenciamento"
+    palestrantes:
+    istalk: false
+    hora_inicio: "14:30"
+    hora_fim: "15:00"
+
+  - nome: "Simplificando testes unitários com junit e mockito"
+    palestrantes: 
+      - nome: "Felipe Neves"
+        linkedin: https://www.linkedin.com/in/felipe-neves-4a7967163/
+      - nome: "Lucas Nunes"
+        linkedin: https://www.linkedin.com/in/lucasdomingosnunes/
+    istalk: true
+    hora_inicio: "15:00"
+    hora_fim: "15:40"
+    links:
+      - icone:
+        nome:
+        link:
+   
+  - nome: Desenvolvimento de APIs REST com PHP usando Laravel e Lumen
+    palestrantes: 
+      - nome: "Jacson Feuser"
+        linkedin:
+    istalk: true
+    hora_inicio: "15:40"
+    hora_fim: "16:20"
+    links:
+      - icone:
+        nome:
+        link:
+  
+  - nome: "Flutter"
+    palestrantes: 
+      - nome: "Julio Henrique Bitencourt"
+        linkedin: https://www.linkedin.com/in/julio-henrique-bitencourt/
+    istalk: true
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone: 
+        nome: 
+        link:
+  
+  - nome: Encerramento
+    palestrante: 
+    istalk: false
+    hora_inicio: "17:00"
+    hora_fim: "18:00"
+    
+---
