@@ -902,3 +902,21 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+.table-default > th,
+.table-default > td {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+}
+
+.data-hora-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.talk-container {
+    padding: 24px 8px!important;
+}

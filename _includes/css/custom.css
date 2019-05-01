@@ -47,3 +47,30 @@
   flex-wrap: wrap; 
   justify-content: space-around;
 }
+
+#evento table, tr, td, th{
+  border: 1px solid black;
+}
+
+#evento .conteudo{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 20px;
+}
+
+#evento .table-eventos {
+  border-radius: 12px;
+  width: 100%;
+}
+
+#evento .palestras{
+  display: flex;
+  flex-direction: column;
+  flex: .7;
+}
+
+#evento .informacoes{
+  display: flex;
+  flex-direction: column;
+  flex: .3;
+}

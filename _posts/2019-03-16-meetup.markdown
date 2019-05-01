@@ -1,23 +1,70 @@
 ---
 title: Code 4 Tuba - Meetup
 subtitle: Sábado, 16 de março de 2019
-layout: default
-modal-id: 1
+layout: evento
 date: 2019-03-16
 img: codefortuba.png
 thumbnail: codefortuba.png
 alt: image-alt
 project-date: Sábado, 16 de março de 2019
-client: Coworking OSTEC, Tubarão, SC
-category: Detalhes
-description: "Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
-<br><br>
-Confira a agenda do dia:<br>
-<br><br>
-14:30h - Credenciamento<br>
-<b>14:45h - Elasticsearch: Buscas inteligentes</b> - Matheus Warmeling Matias<br>
-<b>15:25h - Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos</b> - Leonardo Thizon<br>
-<b>16:15h - React-native + Firebase: Criando um app de chat realtime 100% hands-on</b> - José Roberto Emerich Junior<br>
-17:00h - Encerramento<br>
-"
+local: Coworking OSTEC, Tubarão, SC
+endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
+endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
+permalink: /evento-1
+description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__472453"
+
+talks:
+  - nome: "Credenciamento"
+    palestrantes:
+    istalk: false
+    hora_inicio: "14:30"
+    hora_fim: "15:00"
+
+  - nome: "Elasticsearch Buscas inteligentes"
+    palestrantes: 
+      - nome: "Matheus Warmeling Matias"
+        linkedin: https://google.com.br
+    istalk: true
+    hora_inicio: "15:00"
+    hora_fim: "15:40"
+    links:
+      - icone:
+        nome:
+        link:
+   
+  - nome: Utilizando técnicas de Inteligência Artificial para recuperar informações em documentos
+    palestrantes: 
+      - nome: "Leonardo Thizon"
+        linkedin:
+    istalk: true
+    hora_inicio: "15:40"
+    hora_fim: "16:20"
+    links:
+      - icone:
+        nome:
+        link:
+  
+  - nome: "React-native + Firebase: Criando um app de chat realtime 100% hands-on"
+    palestrantes: 
+      - nome: "José Roberto Emerich Junior"
+        linkedin:
+    istalk: true
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone: 
+        nome: 
+        link:
+  
+  - nome: Encerramento
+    palestrante: 
+    istalk: false
+    hora_inicio: "17:00"
+    hora_fim: "18:00"
+    
 ---

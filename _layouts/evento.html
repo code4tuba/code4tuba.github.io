@@ -1,0 +1,101 @@
+---
+layout: evento
+---
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="page-top" class="index">
+
+  {% include header-secondary.html %}
+  <section>
+    <div id="evento" class="container">
+
+      <h1>{{page.title}}</h1>
+      <br>
+      <strong>{{page.subtitle}}</strong>
+      <br>
+      <br>
+      {{page.description}}
+      <br>
+      <br>
+      <div class="conteudo">
+        <div class="palestras">
+          <h3>
+            <span>Programação / Palestras</span>
+          </h3>
+          <div>
+            <table class="table-eventos">
+              <thead>
+                <tr class="table-default">
+                  <th style="text-align: center; width: 150px;">Horário</th>
+                  <th>Conteúdo</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for talk in page.talks %}
+                <tr class="table-default">
+                    <td>
+                      <p class="data-hora-container" style="width: 150px;">{{talk.hora_inicio}}
+                      às
+                      {{talk.hora_fim}}</p>
+                    </td>
+                    <td class="talk-container">
+                      <span><strong>{{talk.nome}}</strong></span>
+                      <br>
+                      {% if talk.istalk %}
+                        {% for p in talk.palestrantes %}
+                          {% if forloop.length  > 1 and forloop.index > 1 %}
+                              / <a href="{{p.linkedin}}" target="_blank"><i>{{p.nome}}</i></a>
+                            {% else %}
+                              <a href="{{p.linkedin}}" target="_blank" style="font-size: 12px;"><i>{{p.nome}}</i></a>
+                          {% endif %}
+                        {% endfor %}
+                          {% for link in talk.links %}
+                            {% if link.icone %}
+                              <div style="display: flex; flex-direction: row;">
+                                <div>
+                                  <a href="{{link.link}}">{{link.nome}} </a> -
+                                </div>
+                              </div>
+                            {% endif %}
+                          {% endfor %}
+                      {% endif %}
+
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="informacoes">
+          <div class="data-local">
+            <h4>Data e Local</h4>
+            <br>
+            <p>{{page.project-date}}</p>
+            <p>{{page.horario_inicio}} às {{page.horario_fim}}</p>
+            <p>{{page.client}}</p>
+            <p> <a href="{{page.endereco_url}}" target="_blank">{{page.endereco}}</a></p>
+          </div>
+          <div>
+            <h4>Públibo Alvo</h4>
+            <p>{{page.publico_alvo}}</p>
+          </div>
+          <div>
+            <h4>Quero Participar</h4>
+            <p><a href="{{page.link_inscricoes}}" target_="_blank" class="page-scroll btn btn-xl">Fazer inscrição</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include contact.html %}
+  {% include footer.html %}
+  {% include js.html %}
+
+</body>
+
+</html>
