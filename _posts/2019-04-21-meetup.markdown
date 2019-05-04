@@ -7,9 +7,9 @@ img: code4tuba.jpg
 thumbnail: code4tuba.jpg
 alt: Imagem de divulgação code for tuba meetup
 project-date: Sábado, 11 de maio de 2019
-local: Coworking OSTEC, Tubarão, SC
-endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
-endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
+local: UNISUL - Auditório Cettal, Tubarão, SC
+endereco: "R. Padre Dionísio da Cunha Laudt, S/n - Dehon, Tubarão - SC"
+endereco_url: "https://goo.gl/maps/crhFde2ceNQtvT787"
 permalink: /evento-5
 description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
 publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
