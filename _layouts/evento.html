@@ -43,6 +43,9 @@ layout: evento
                     </td>
                     <td class="talk-container">
                       <span><strong>{{talk.nome}}</strong></span>
+                      <!-- {% if talk.istalk %}
+                        <button>show</button>
+                      {% endif %} -->
                       <br>
                       {% if talk.istalk %}
                         {% for p in talk.palestrantes %}
@@ -60,6 +63,9 @@ layout: evento
                                 </div>
                               </div>
                             {% endif %}
+
+                            <br><br>
+                            <span style="font-size: 13px;">{{talk.description}}</span>
                           {% endfor %}
                       {% endif %}
 

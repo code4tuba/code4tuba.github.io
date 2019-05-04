@@ -26,6 +26,7 @@ talks:
     hora_fim: "15:00"
 
   - nome: "Simplificando testes unitários com junit e mockito"
+    description: "Muito se tem ouvido falar em testes e da importância dos mesmos no desenvolvimento de software moderno, porém muito misticismo ainda está envolto nesse tema. Nessa talk, vamos abordar os principais conceitos e boas práticas relacionados a testes unitários, utilizando Java, juntamente com Junit e Mockito, e demonstraremos os diferentes casos de teste dentro do dia a dia do desenvolvedor backend, desde testes unitarios simples, até testes envolvendo metodos privados, void e classes abstratas"
     palestrantes: 
       - nome: "Felipe Neves"
         linkedin: https://www.linkedin.com/in/felipe-neves-4a7967163/
@@ -52,6 +53,7 @@ talks:
         link:
   
   - nome: "Flutter"
+    description: "Porque Flutter não é simplismente mais uma tecnologia para desenvolvimento Mobile e o que ele possui de diferente para oferecer aos desenvolvedores. Isso tudo aliado a um hands-on para criação de um aplicativo simples e validação da tecnologia."
     palestrantes: 
       - nome: "Julio Henrique Bitencourt"
         linkedin: https://www.linkedin.com/in/julio-henrique-bitencourt/
