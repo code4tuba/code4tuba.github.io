@@ -1,0 +1,82 @@
+---
+title: Code 4 Tuba - Meetup
+subtitle: Sábado, 27 de julho de 2019
+layout: evento
+date: 2019-07-01
+img: code4tuba-27-07.jpg
+thumbnail: code4tuba-27-07.jpg
+alt: Imagem de divulgação code for tuba meetup
+project-date: Sábado, 27 de julho de 2019
+local: Coworking OSTEC, Tubarão, SC
+endereco: "R. Cel. José Martins Cabral, 158 - Centro, Tubarão - SC"
+endereco_url: "https://goo.gl/maps/c2b1ZfbcbALP7QUo7"
+permalink: /evento-6
+description: Visando sempre fomentar a comunidade de desenvolvimento de Tubarão, queremos ajudar você a compartilhar seu conhecimento e também aprender com outras pessoas da comunidade!
+publico_alvo: "Qualquer pessoa ligada ao desenvolvimento de software"
+valor: "Gratuito"
+horario_inicio: "14:30h"
+horario_fim: "17:00h"
+link_inscricoes: "https://www.sympla.com.br/code-4-tuba---meetup__585075"
+
+talks:
+  - nome: "Credenciamento"
+    palestrantes:
+    istalk: false
+    hora_inicio: "14:30"
+    hora_fim: "14:45"
+
+  - nome: "Dockerize seus testes de integração com testcontainers"
+    palestrantes: 
+      - nome: "Alexandre Zanelatto"
+        linkedin: https://www.linkedin.com/in/alexandrezanelatto
+    istalk: true
+    hora_inicio: "14:45"
+    hora_fim: "15:30"
+    links:
+      - icone:
+        nome:
+        link:
+   
+  - nome: Offline first com PouchDB
+    palestrantes: 
+      - nome: "Ramon Nunes Teixeira"
+        linkedin: https://www.linkedin.com/in/ramonnteixeira/
+    istalk: true
+    hora_inicio: "15:30"
+    hora_fim: "15:55"
+    links:
+      - icone:
+        nome:
+        link:
+  
+  - nome: "Clean code, boas práticas e design de código"
+    palestrantes: 
+      - nome: "Gefy Marcos"
+        linkedin: https://www.linkedin.com/in/geffersonmarcos/
+    istalk: true
+    hora_inicio: "15:55"
+    hora_fim: "16:20"
+    links:
+      - icone: 
+        nome: 
+        link:
+  
+  - nome: "Usando type-safe builders do Kotlin para construção de cenários de testes"
+    palestrantes: 
+      - nome: "Wesley Fuchter"
+        linkedin: https://www.linkedin.com/in/add-me-wesleyfuchter/
+    istalk: true
+    hora_inicio: "16:20"
+    hora_fim: "17:00"
+    links:
+      - icone: 
+        nome: 
+        link:
+
+  - nome: Encerramento
+    palestrante: 
+    istalk: false
+    hora_inicio: "17:00"
+    hora_fim: "18:00"
+    
+---
