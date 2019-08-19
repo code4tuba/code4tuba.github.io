@@ -74,3 +74,8 @@
   flex-direction: column;
   flex: .3;
 }
+
+.sponsors {
+  display: flex;
+  align-items: center;
+}

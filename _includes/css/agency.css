@@ -403,6 +403,10 @@ section h3.section-subheading {
     opacity: 1;
 }
 
+#portfolio .portfolio-item .portfolio-link img {
+    height: 186px;
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
